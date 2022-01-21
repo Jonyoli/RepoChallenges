@@ -6,8 +6,8 @@ namespace CafeUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            UserInterface ui = new UserInterface();
+            ui.Display();
         }
     }
 }
